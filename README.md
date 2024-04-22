@@ -1,4 +1,4 @@
-#Simple MD5 Hash Cracker in python using the hash library.
+Simple MD5 Hash Cracker in python using the hash library.
 
 How to use:
 1. Make sure both the "Hash_Cracker.py" and "Rockyou.txt" files are in the same directory or change the path to wherever your wordlist is stored.
