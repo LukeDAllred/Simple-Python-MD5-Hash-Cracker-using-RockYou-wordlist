@@ -16,7 +16,7 @@ print("The Hash: " + "'" + md5input + "' " + " is being cracked, please wait one
 
 #Comparing hashes from the rockyou.txt wordlist
 def file_open(wordlist):
-    global password_doc
+    global password_file
     try:
         with open(wordlist, "r", encoding='latin-1') as password_file:
             for hashed in password_file:
